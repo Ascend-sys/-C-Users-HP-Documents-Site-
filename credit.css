@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background: #14121F;
+    color: #E2DDFE;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+.credits-container{
+    position: absolute;
+    width: 100%;
+    bottom: -100%;
+    animation: scroll 20s linear infinite;
+    text-align: center;
+    font-size: 1.5em;
+}
+@keyframes  scroll{
+    0%{
+        bottom: -100%;
+    }
+    100%{
+        bottom: 100%;
+    }
+}
+nav {
+    background-color: #291F43; /* Encore une autre couleur pour la nav */
+    padding: 10px 0;
+    text-align: center; /* Centrer les liens */
+}
+
+nav ul {
+    list-style-type: none; /* Pas de puces, c'est plus joli */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Mettre les liens sur la même ligne */
+    margin-right: 20px; /* Un peu d'espace entre eux */
+}
+
+nav ul li a {
+        text-decoration: none; /* Pas de soulignement moche */
+    color: #E2DDFE;
+    font-weight: bold;
+    padding: 5px 10px; /* Un peu d'espace autour du texte du lien */
+    border-radius: 5px; /* Coins arrondis, c'est moderne ! */
+}
+
+nav ul li a:hover {
+    background-color: #6958AD; /* Couleur de survol */
+    color: #14121F;
+}
+li{
+    font-size: 1.5em;
+    text-align: justify;
+    text-decoration: solid;
+    font-weight: bold;
+}
+p{
+    text-decoration: solid;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 1.5em;
+}

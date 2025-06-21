@@ -1,0 +1,33 @@
+body {
+    background: url(./WhatsApp\ Image\ 2025-04-13\ à\ 16.15.50_b6812b64.jpg) ;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    font-size: larger;
+}
+h2{
+    color: whitesmoke;
+    text-decoration: underline
+    
+}
+h1{
+    color:whitesmoke;
+    text-decoration: underline
+}
+h3{
+    color: whitesmoke;
+    text-decoration: underline 
+}
+header{
+    background-color:darkturquoise;
+    border: #021c68;
+    lighting-color: aliceblue;
+    
+}
+footer{
+    text-decoration: underline
+    
+}
+a{
+    color: darkturquoise;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours HTML - CodeAmi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+       <nav class="navbar">   <!-- Menu hamburger -->
+<div class="hamburger">
+  <i class="fas fa-bars" id="Menu"></i>
+  <ul id="Nume" class="bar menu2">
+    
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="html_course.html">Cours HTML</a></li>
+        <li><a href="css_course.html">Cours CSS</a></li>
+        <li><a href="python_course.html">Cours Python</a></li>
+        <li><a href="music.html">Musique</a></li>
+        
+<li class="has-submenu">
+  <a href="#" id="portfolio-link">Portfolio <i class="fas fa-caret-down"></i></a>
+  <ul class="submenu menu2">
+    
+    <li><a href="Projet.html">Accueil</a></li>
+    <li><a href="moi.html">À propos de moi</a></li>
+    <li><a href="mes_projet.html">Mes projets</a></li>
+    <li><a href="Suno.html">SunoAI</a></li>
+  
+  </ul>
+</li>
+        <li><a href="crédit.html">Crédit</a></li>
+</ul>
+</nav>
+</div>
+        <h1>CodeAmi</h1>
+        <p style="color: #BAA7FF;">Apprenons le HTML ensemble !</p>
+    </header>
+    <audio autoplay loop hidden
+    src="Chill.mp3"
+    type="audio/mpeg">
+    </audio>
+
+
+    <div class="container">
+        <h2>Apprendre le HTML : Les Fondations du Web</h2>
+        <p>
+            HTML, ça veut dire <strong>HyperText Markup Language</strong>. Oublie le nom compliqué, retiens juste que c'est le squelette de toutes les pages web !
+            Quand tu vois du texte, des images, des liens sur un site, c'est grâce à HTML qu'ils sont structurés.
+        </p>
+        <p>
+            Imagine que tu construis une maison :
+        </p>
+        <ul>
+            <li>HTML, ce sont les murs, le toit, les portes... la structure de base.</li>
+            <li>CSS (qu'on verra après), c'est la peinture, la décoration, pour que ce soit joli.</li>
+            <li>JavaScript (plus tard !), c'est l'électricité, la plomberie, pour que ça devienne interactif.</li>
+        </ul>
+
+        <h3>À quoi ça sert concrètement ?</h3>
+        <p>
+            Avec HTML, tu vas pouvoir :
+        </p>
+        <ul>
+            <li>Créer des titres (comme celui que tu lis) avec les balises <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.</li>
+            <li>Écrire des paragraphes de texte avec la balise <code>&lt;p&gt;</code>.</li>
+            <li>Ajouter des images avec <code>&lt;img src="url_de_l_image" alt="description"&gt;</code>.</li>
+            <li>Faire des liens vers d'autres pages avec <code>&lt;a href="autre_page.html"&gt;</code>.</li>
+            <li>Et plein d'autres choses !</li>
+        </ul>
+
+        <h3>Un tout petit exemple</h3>
+        <p>
+            Voici à quoi ressemble un bout de code HTML très simple :
+        </p>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Ma Première Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Salut le Monde !&lt;/h1&gt;
+    &lt;p&gt;Ceci est mon premier paragraphe en HTML.&lt;/p&gt;
+    &lt;img src="https://placehold.co/200x100/3C2E69/E2DDFE?text=Mon+Image" alt="Exemple d'image"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        <p>
+            Pas si sorcier, hein ? Le HTML, c'est surtout une question de balises qui s'ouvrent (<code>&lt;nomdelabalise&gt;</code>) et qui se ferment (<code>&lt;/nomdelabalise&gt;</code>).
+            On va explorer ça ensemble !
+        </p>
+    </div>
+
+    <footer>
+        
+        <div class="container">
+    <a href="index.html"style="color: #7D66D9;">Retour à L'Accueil</a>
+    </div>
+    <p>&copy; 2025 CodeAmi - Fait avec ❤️ par un ami codeur.</p>
+    </footer>
+ <script src="Projet.js"></script>
+</body>
+</html>

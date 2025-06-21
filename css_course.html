@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours CSS - CodeAmi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+       <nav class="navbar">   <!-- Menu hamburger -->
+<div class="hamburger">
+  <i class="fas fa-bars" id="Menu"></i>
+  <ul id="Nume" class="bar menu2">
+    
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="html_course.html">Cours HTML</a></li>
+        <li><a href="css_course.html">Cours CSS</a></li>
+        <li><a href="python_course.html">Cours Python</a></li>
+        <li><a href="music.html">Musique</a></li>
+        
+<li class="has-submenu">
+  <a href="#" id="portfolio-link">Portfolio <i class="fas fa-caret-down"></i></a>
+  <ul class="submenu menu2">
+    
+    <li><a href="Projet.html">Accueil</a></li>
+    <li><a href="moi.html">À propos de moi</a></li>
+    <li><a href="mes_projet.html">Mes projets</a></li>
+    <li><a href="Suno.html">SunoAI</a></li>
+  
+  </ul>
+</li>
+        <li><a href="crédit.html">Crédit</a></li>
+</ul>
+</nav>
+</div>
+
+   
+        <h1>CodeAmi</h1>
+        <p style="color: #BAA7FF;">Donnons du style avec CSS !</p>
+    </header>
+   
+    <audio autoplay loop hidden
+    src="Chill.mp3"
+    type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <h2>Apprendre le CSS : Rendre le Web Joli !</h2>
+        <p>
+            CSS, ça veut dire <strong>Cascading Style Sheets</strong>. C'est le langage qui s'occupe de l'apparence de tes pages HTML.
+            Si HTML est le squelette, CSS est l'habillage : les couleurs, les polices, la mise en page... tout ce qui rend un site agréable à regarder !
+        </p>
+        <p>
+            Sans CSS, le web ressemblerait à des documents textes un peu tristes. Avec CSS, on peut faire des merveilles !
+            (Bon, au début, on fait des trucs simples, mais c'est déjà super !)
+        </p>
+
+        <h3>Comment ça marche ?</h3>
+        <p>
+            Le CSS fonctionne avec des "règles". Une règle CSS dit : "Prends cet élément HTML (par exemple, tous les titres <code>&lt;h1&gt;</code>) et applique-lui ces styles (par exemple, mets-les en bleu et en grande taille)".
+        </p>
+        <p>
+            On écrit généralement le code CSS dans un fichier séparé (comme notre <code>style.css</code> !) et on le relie à nos pages HTML.
+            C'est pratique, parce qu'on peut changer l'apparence de tout un site en modifiant juste un fichier !
+        </p>
+
+        <h3>Un petit exemple de CSS</h3>
+        <p>
+            Imaginons qu'on veuille que tous nos paragraphes (<code>&lt;p&gt;</code>) soient en couleur vert clair et nos titres <code>&lt;h2&gt;</code> en orange.
+            Dans notre fichier CSS, on pourrait écrire :
+        </p>
+        <pre>
+/* Ceci est un commentaire en CSS */
+
+p {
+    color: lightgreen; /* Texte des paragraphes en vert clair */
+    font-size: 16px;   /* Taille de la police */
+}
+
+h2 {
+    color: orange;     /* Texte des titres h2 en orange */
+    text-align: center;/* Centrer les titres */
+}
+        </pre>
+        <p>
+            Et voilà ! Tous les <code>&lt;p&gt;</code> et <code>&lt;h2&gt;</code> de notre site (qui utilise ce CSS) prendraient ces styles.
+            Les couleurs qu'on utilise sur CE site sont définies dans <code>style.css</code>, tu peux y jeter un œil !
+        </p>
+        <p>
+            Le CSS, c'est un peu comme jouer avec des Lego : on assemble des propriétés pour créer le look qu'on veut.
+            Il y a plein de propriétés à découvrir : <code>background-color</code> pour la couleur de fond, <code>font-family</code> pour la police, <code>margin</code> et <code>padding</code> pour les espaces...
+        </p>
+    </div>
+
+    <footer>
+        <div class="container">
+    <a href="index.html" style="color: #7D66D9;">Retour à L'Accueil</a>
+    </div>
+    <p>&copy; 2025 CodeAmi - Fait avec ❤️ par un ami codeur.</p>
+    </footer>
+ <script src="Projet.js"></script>
+</body>
+</html>

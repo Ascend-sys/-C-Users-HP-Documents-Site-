@@ -1,0 +1,281 @@
+/* style.css - Mon premier fichier CSS ! */
+
+body {
+    font-family: 'Times New Roman', Times, serif; /* Police simple, comme un débutant */
+    background-color: #14121F; /* Couleur de fond la plus foncée */
+    color: #E2DDFE; /* Couleur de texte claire */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Un peu d'espace entre les lignes */
+}
+
+/* L'en-tête du site */
+header {
+    background-color: #1B1525; /* Un peu plus clair que le body */
+    padding: 20px;
+    text-align: center; /* Centrer le titre, c'est facile ! */
+    border-bottom: 3px solid #33255B; /* Une petite bordure */
+}
+
+header h1 {
+    margin: 0;
+    color: #BAA7FF; /* Couleur sympa pour le titre */
+    font-size: 2.5em; /* Titre assez grand */
+}
+
+/* La barre de navigation */
+nav {
+    background-color: #291F43; /* Encore une autre couleur pour la nav */
+    padding: 10px 0;
+    text-align: center; /* Centrer les liens */
+}
+
+nav ul {
+    list-style-type: none; /* Pas de puces, c'est plus joli */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Mettre les liens sur la même ligne */
+    margin-right: 20px; /* Un peu d'espace entre eux */
+}
+
+nav ul li a {
+    text-decoration: none; /* Pas de soulignement moche */
+    color: #E2DDFE;
+    font-weight: bold;
+    padding: 5px 10px; /* Un peu d'espace autour du texte du lien */
+    border-radius: 5px; /* Coins arrondis, c'est moderne ! */
+}
+
+nav ul li a:hover {
+    background-color: #6958AD; /* Couleur de survol */
+    color: #14121F;
+}
+
+/* Contenu principal */
+.container {
+    width: 80%; /* Pas trop large, pour que ce soit lisible */
+    margin: 20px auto; /* Centrer le contenu */
+    padding: 20px;
+    background-color: #1B1525; /* Fond pour le contenu */
+    border: 1px solid #33255B; /* Petite bordure discrète */
+    border-radius: 8px; /* Coins arrondis aussi ici */
+}
+
+.container h2 {
+    color: #BAA7FF; /* Même couleur que le titre principal pour les sous-titres */
+    border-bottom: 2px solid #3C2E69; /* Soulignement léger */
+    padding-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 15px; /* Espace après les paragraphes */
+}
+
+/* Section spécifique pour les cours sur l'accueil */
+.course-links {
+    text-align: center; /* Centrer les boutons/liens des cours */
+    margin-top: 30px;
+}
+
+.course-links a {
+    display: inline-block; /* Pour pouvoir mettre padding et margin */
+    background-color: #56468B; /* Couleur de fond pour les boutons */
+    color: #E2DDFE;
+    padding: 15px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: 2px solid #6958AD; /* Bordure pour effet bouton */
+}
+
+.course-links a:hover {
+    background-color: #7D66D9; /* Changement de couleur au survol */
+    color: #14121F;
+}
+
+/* Pour les exemples de code (si on en met) */
+pre {
+    background-color: #14121F; /* Fond sombre pour le code */
+    color: #E2DDFE;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto; /* Pour le code qui dépasse */
+    border: 1px solid #33255B;
+    font-family: "Courier New", Courier, monospace; /* Police pour le code */
+}
+
+/* Le pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1B1525;
+    border-top: 3px solid #33255B;
+    margin-top: 30px; /* Espace avant le pied de page */
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+    color: #BAA7FF;
+}
+
+/* Style pour la page musique, un peu différent pour s'amuser */
+.music-section {
+    background-color: #291F43; /* Fond un peu différent */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.music-section h2 {
+    color: #E2DDFE; /* Titre de la section musique en clair */
+}
+
+.music-section p {
+    color: #BAA7FF; /* Texte de la section musique */
+    font-size: 1.2em;
+}
+.liens {
+    color: #BAA7FF; /* Texte de la section musique */
+    font-size: 1.2em;
+}
+.Ok{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    font-size: larger;
+}
+.bloc{
+    text-decoration: underline;
+}
+.fire{
+    text-decoration: underline;
+    
+    color: #BAA7FF;
+}
+.find{
+    text-decoration: underline;
+    
+    color: #BAA7FF;
+}
+.li{
+    color: #BAA7FF;
+    text-decoration: none;
+}
+
+span{
+    color: #BAA7FF
+}
+#skills li{
+    list-style: none;
+}
+.container a{
+    color:#BAA7FF ;
+    text-decoration: none;
+    padding: 5px;
+}
+.hamburger {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #BAA7FF;
+}
+.hamburger:hover {
+    color: #6958AD; /* Couleur de survol pour l'icône hamburger */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 20px;
+}
+#Menu{
+    color: #7D66D9;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+#Menu:hover{
+    color: #33255B;
+}
+.bar{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.bar{
+    display: none;
+    flex-direction: column;
+    background: #14121F;
+    position: absolute;
+    top: 60px;
+    height: 100%;
+    left: 20px;
+    width: 200px;
+    padding: 10px 0;
+}
+.bar.show{
+    display: flex;
+
+}
+/* Sous-menu Portfolio */
+.has-submenu {
+  position: relative;
+}
+.has-submenu > a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.has-submenu .submenu {
+  display: none;
+  position: absolute;
+  background: #14121F; /* Couleur de fond du sous-menu */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 180px;
+  z-index: 1000;
+}
+.has-submenu.open .submenu {
+  display: block;
+}
+.has-submenu .submenu li a {
+  color: #E2DDFE; /* Couleur du texte des liens du sous-menu */
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+}
+.has-submenu .submenu li a:hover {
+  background: #6958AD; /* Couleur de survol du sous-menu */
+}
+.has-submenu > a .fa-caret-down {
+  margin-left: 8px;
+  transition: transform 0.2s;
+}
+.has-submenu.open > a .fa-caret-down {
+  transform: rotate(-180deg);
+}
+@media (max-width: 768px) {
+  .has-submenu .submenu {
+    position: static;
+    min-width: unset;
+  }
+}
+.menu2 {
+    background-color: #1B1525; /* Même fond que .container */
+    border: 1px solid #33255B; /* Même bordure */
+    border-radius: 8px;        /* Même arrondi */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Optionnel : petite ombre */
+    padding: 10px 0;
+}
+.bar { display: none; }
+.bar.open { display: flex; flex-direction: column; }
+.submenu { display: none; }
+.has-submenu.open .submenu { display: block; }
